@@ -97,7 +97,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* Base Header - Footer Styles */
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+   /* Base Header - Footer Styles */
 
 header,
 footer {
@@ -107,7 +113,12 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
 /* Header */
+
 
 header .content-wrapper {
   display: flex;
@@ -117,17 +128,62 @@ header .content-wrapper {
 }
 
 header nav {
+  display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  align-items: center;
+  width: 55%;
 }
 
 header nav ul {
-  /* needs flexbox */
-  list-style: none;
+  
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  width: 100% /*not sure why, i originally had 44%*/
 }
 
 header a {
   text-decoration: none;
+}
+
+.header-divider {
+  width: 100%;
+}
+
+/******** FOOTER *******/
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .contact {
+  margin: 50px 0;
+}
+
+/* .footer-content { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}*/
+
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* HERO AREA - HOMEPAGE */
@@ -135,13 +191,17 @@ header a {
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /*align-items: center;*/
   flex-flow: row wrap; /*but why*/
+}
+
+.hero-area h2 {
+  padding-top: 50px;
 }
 
 /* SIGN UP FORM - HOMEPAGE*/
 
-aside .content-wrapper {
+aside {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,10 +209,10 @@ aside .content-wrapper {
 }
 /* FEATURES  - HOMEPAGE */
 
-.features .content-wrapper {
+.features  {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /*align-items: center; not in solution code*/
   flex-flow: row wrap;
 }
 
@@ -163,15 +223,29 @@ aside .content-wrapper {
   flex-flow: row wrap;
 }
 
+.features article {
+  width: 55%;
+}
+
+.features p {
+  margin: 0;
+}
+
 /* REVIEWS - HOMEPAGE */
 
-.reviews .content-wrapper {
+.reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   flex-flow: row wrap;
 }
 
+.reviews h3 {
+  width: 47%;
+}
+
+
+/********** ABOUT PAGE STYLES ************/
 
 /* MISSION - ABOUT PAGE */
 
