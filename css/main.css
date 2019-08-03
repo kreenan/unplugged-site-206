@@ -122,16 +122,22 @@ body {
  h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 2em;
+  color: #fff;
+  font-weight: 400;
  }
 
  h3,
- h4 {
+ h4,
+ h5 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.5em;
+  color: #fff;
+  font-weight: 400;
  }
 
  p {
   line-height: 1.5em;
+  color: #e2e3ed;
  }
 
  img {
@@ -140,10 +146,6 @@ body {
 
  address {
   font-style: normal;
- }
-
- .content-wrapper {
-
  }
 
 
@@ -160,6 +162,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: rgb(32, 35, 34);
 }
 
 header {
@@ -189,12 +192,18 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
-  width: 100% /*not sure why, i originally had 44%*/
+  width: 100%; /*not sure why, i originally had 44%*/
+  padding: 0;
+}
+
+header nav ul li {
+  text-transform: uppercase;
 }
 
 header a {
   text-decoration: none;
 }
+
 
 .header-divider {
   width: 100%;
@@ -230,7 +239,6 @@ footer .social {
 }
 
 
-
 footer .social-icons {
   display: flex;
   justify-content: space-around;
@@ -263,7 +271,10 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: rgb(82, 113, 88);
 }
+
+
 /* FEATURES  - HOMEPAGE */
 
 .features  {
@@ -285,6 +296,7 @@ aside {
   padding: 50px 0;
 }
 
+
 .features p {
   margin: 0;
 }
@@ -296,7 +308,9 @@ aside {
   justify-content: center;
   /* align-items: center; */
   flex-flow: row wrap;
+  background-color: rgb(42, 66, 58);
 }
+
 
 .reviews h3 {
   width: 47%;
@@ -312,7 +326,10 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: rgb(82, 113, 88);
 }
+
+
 /* CONTACT - ABOUT PAGE */
 
 .contact-section {
@@ -320,9 +337,16 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: rgb(42, 66, 58);
 }
 
+
+
 /* FAQ PAGE */
+
+.faq {
+  background-color: rgb(82, 113, 88);
+}
 
 .faq,
 .faq .content-wrapper {
@@ -332,6 +356,32 @@ aside {
   flex-flow: row wrap;
 }
 
+
+/* FORM STYLES */
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 
    /* end author styles */
 /* ==========================================================================
