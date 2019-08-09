@@ -288,7 +288,7 @@ footer .copyright {
   justify-content: center;
   /* align-items: top; */
   flex-flow: row wrap; /*but why*/
-  background: url('/img/unplugged-hero-image.jpg') center no-repeat #333;
+  background: url('../img/unplugged-hero-image.jpg') center no-repeat #333;
   background-size: cover;
   min-height: 500px;
 }
@@ -319,7 +319,7 @@ aside .content-wrapper {
   justify-content: center;
   /*align-items: center; not in solution code*/
   flex-flow: row wrap;
-  background: url('/img/unplugged-features-image.jpg') center no-repeat #333;
+  background: url('../img/unplugged-features-image.jpg') center no-repeat #333;
   background-size: cover;
 }
 
