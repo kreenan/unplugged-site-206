@@ -403,7 +403,7 @@ aside .content-wrapper {
 .map figure {
   width: 100%;
   height: 0;
-  padding-bottom: 70%;
+  padding-bottom: 110%;
   overflow: hidden;
   position: relative;
 }
@@ -767,6 +767,10 @@ ABOUT PAGE
   width: 50%;
 }
 
+.map figure {
+  padding-bottom: 47%;
+}
+
 .contact-section .content-wrapper h3 {
   width: 90%;
   font-size: 36px;
@@ -867,6 +871,10 @@ ABOUT PAGE
 
 .contact-section .content-wrapper {
   margin-bottom: 115px;
+}
+
+.map figure {
+  padding-bottom: 37.5%;
 }
 
 /* ===============
