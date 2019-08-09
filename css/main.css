@@ -332,12 +332,15 @@ aside .content-wrapper {
 }
 
 .features figure {
-  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-flow: row wrap;
+}
+
+.features i {
+  font-size: 3.75em;
   margin-bottom: 40px;
 }
 
